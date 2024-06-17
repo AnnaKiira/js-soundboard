@@ -1,0 +1,22 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 64px;
+    background-color: #ffffff;
+    gap: 5px;
+}
+
+.grid button {
+    background-color: rgba(246, 240, 240, 0.868);
+    color: red;
+    border: 2px solid rgba(136, 132, 132, 0.8); 
+    text-align: center;
+    padding: 60px 12px;
+    font-size: 30px;
+  }
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
